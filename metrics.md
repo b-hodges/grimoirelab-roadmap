@@ -5,24 +5,24 @@ A non-comprehensive set of metrics measured by GrimoireLab
 * Top Authors:
   * What: Measures how many commits they've made, lines added/removed in their commits, how many projects they work on
   * Why: Shows who's making the most contributions/how active they are in the community. Gives a good idea of who people should talk to for issues or add to the core team
-  * ![Top Authors](images/top-authors.png)
+  * ![Top Authors](images/grimoire-lab-top-authors.png)
 * Attracted/Leaving Developers:
   * What (Attracted): Counts new developers making commits to the project by month
   * What (Leaving): Counts developers who made their last commit 6 months ago
   * Why: Shows how many new developers are contributing to the project versus developers who have gone inactive in the project
-  * ![Attracted/Leaving Developers](images/attracted-inactive.png)
+  * ![Attracted/Leaving Developers](images/grimoire-lab-attracted-inactive.png)
 * Issue Submitters:
   * What: List of everyone who has opened an issue to a project, along with number of issues, number of repositories, and average length their issues remain open.
   * Why: Shows the variety of submitters, how active they are, and how quickly their issues are resolved. Indicates the variety of perspectives and opinions contributing to the project
-  * ![Issue Submitters](images/issue-submitters.png)
+  * ![Issue Submitters](images/grimoire-lab-issue-submitters.png)
 * Pull Request By Organization:
   * What: Count of pull request by developers associated with a particular organization
   * Why: Shows ownership and support of the project by organizations.
-  * ![Pull Requests by Organization](images/pull-req-org.png)
+  * ![Pull Requests by Organization](images/grimoire-lab-pull-req-org.png)
 * 80% Open Time (days):
   * What: Amount of time it takes for 80% of pull requests to be closed from a specific month/day
   * Why: Shows how responsive project managers are with accepting/denying pull requests
-  * ![80% Open Time](images/80-percent-open-time.png)
+  * ![80% Open Time](images/grimoire-lab-80-percent-open-time.png)
 * Identities
   * What: Track the same user across multiple profiles
   * Why: Prevents over-counting individual developers and allows more accurate identification of important developers
@@ -49,32 +49,32 @@ mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
 * Top Repositories
   * What: Measures activity (commits, authors, lines of code, etc.) of multiple scanned repositories
   * Why: Provides a relative view of repositories within a project to see where activity is concentrated
-  * ![Top Repositories](images/top-repos.png)
+  * ![Top Repositories](images/grimoire-lab-top-repos.png)
 * Assignee Organizations
   * What: Counts the issues assigned to individual organizations
   * Why: Can indicate which organizations are valued by the community itself
-  * ![Assignee Organizations](images/assignee-orgs.png)
+  * ![Assignee Organizations](images/grimoire-lab-assignee-orgs.png)
 * Mailing Lists: Emails
   * What: Counts the emails send on mailing lists associated with the project
   * Why: Indicates how responsive the mailing lists are via volume of traffic
-  * ![Mailing Lists: Emails](images/mailing-lists.png)
+  * ![Mailing Lists: Emails](images/grimoire-lab-mailing-lists.png)
 * Gerrit: Changeset Status
   * What: Counts the changesets of each status
   * Why: Can indicate the current stage of development that the project is in (i.e. a project ramping up for a new release may have more DRAFT issues than NEW)
-  * ![Gerrit: Changeset Status](images/gerrit-status.png)
+  * ![Gerrit: Changeset Status](images/grimoire-lab-gerrit-status.png)
 * Backlog (Open PRs and Issues)
   * What: Listing of all open issues and pull requests
   * Why: Shows that a community is active by having a lot of issues and pull requests, can also show inactivity of community managers if too many issues or pull requests aren't being resolved
-  * ![Backlog](images/backlog.png)
+  * ![Backlog](images/grimoire-lab-backlog.png)
 * Pull Request Submitters
   * What: Count of individual pull request submitters by date
   * Why: Shows activity level of the community for making updates/fixes
-  * ![Pull Request Submitters](images/pull-request-submitters.png)
+  * ![Pull Request Submitters](images/grimoire-lab-pull-request-submitters.png)
 * Pull Request Status
   * What: Graphic showing amount of open and closed pull requests
   * Why: Shows quickly how many open requests are in contrast to closed requests. This information can be used to see if a community is letting open requests pile up
-  * ![Pull Request Status](images/pull-status.png)
+  * ![Pull Request Status](images/grimoire-lab-pull-status.png)
  * Commits By Timezone
   * What: Graphical representation of how many commits have originated from each timezone
   * Why: Shows what timezones have users making commits to the project which can be used to track the spread of project contributers
-  * ![Commits By Timezone](images/commits-timezone.png)
+  * ![Commits By Timezone](images/grimoire-lab-commits-timezone.png)
