@@ -33,3 +33,15 @@ A non-comprehensive set of metrics measured by GrimoireLab
 * Gerrit: Changeset Status
   * What: Counts the changesets of each status
   * Why: Can indicate the current stage of development that the project is in (i.e. a project ramping up for a new release may have more DRAFT issues than NEW)
+* Backlog (Open PRs and Issues)
+  * What: Listing of all open issues and pull requests
+  * Why: Shows that a community is active by having a lot of issues and pull requests, can also show inactivity of community managers if too many issues or pull requests aren't being resolved.
+* Pull Request Submitters
+  * What: Count of individual pull request submitters by date
+  * Why: Shows activity level of the community for making updates/fixes
+* Top Repositories
+  * What: Listing of the most active repositories with metrics for each.
+  * Why: Shows which repositories within the project are getting the most attention and can help steer development.
+* Pull Request Status
+  * What: Graphic showing amount of open and closed pull requests
+  * Why: Shows quickly how many open requests are in contrast to closed requests. This information can be used to see if a community is letting open requests pile up.
