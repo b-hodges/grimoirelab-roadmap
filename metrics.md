@@ -5,6 +5,7 @@ A non-comprehensive set of metrics measured by GrimoireLab
 * Top Authors:
   * What: Measures how many commits they've made, lines added/removed in their commits, how many projects they work on
   * Why: Shows who's making the most contributions/how active they are in the community. Gives a good idea of who people should talk to for issues or add to the core team.
+  ![alt text](https://github.com/b-hodges/grimoirelab-roadmap/blob/master/Top%20Authors.PNG?raw=true "Top Authors")
 * Attracted/Leaving Developers:
   * What (Attracted): Counts new developers making commits to the project by month.
   * What (Leaving): Counts developers who made their last commit 6 months ago.
