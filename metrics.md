@@ -74,3 +74,7 @@ mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
   * What: Graphic showing amount of open and closed pull requests
   * Why: Shows quickly how many open requests are in contrast to closed requests. This information can be used to see if a community is letting open requests pile up
   * ![Pull Request Status](images/pull-status.png)
+ * Commits By Timezone
+  * What: Graphical representation of how many commits have originated from each timezone
+  * Why: Shows what timezones have users making commits to the project which can be used to track the spread of project contributers
+  * ![Commits By Timezone](images/commits_timezone.png)
