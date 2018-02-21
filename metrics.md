@@ -77,4 +77,4 @@ mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
  * Commits By Timezone
   * What: Graphical representation of how many commits have originated from each timezone
   * Why: Shows what timezones have users making commits to the project which can be used to track the spread of project contributers
-  * ![Commits By Timezone](images/commits_timezone.PNG)
+  * ![Commits By Timezone](images/commits-timezone.png)
