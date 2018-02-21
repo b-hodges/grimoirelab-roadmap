@@ -26,7 +26,7 @@ A non-comprehensive set of metrics measured by GrimoireLab
 * Identities
   * What: Track the same user across multiple profiles
   * Why: Prevents over-counting individual developers and allows more accurate identification of important developers
-(no UI available)
+  * (no UI available)
 ```
 mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
 | id      | name                           | email                                | username | source | uuid    |
