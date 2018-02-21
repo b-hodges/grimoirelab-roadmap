@@ -47,8 +47,8 @@ mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
 ...
 ```
 * Top Repositories
-  * What: Measures activity (commits, authors, lines of code, etc.) of multiple scanned respositories
-  * Why: Provides a realtive view of repositories within a project to see where activity is concentrated
+  * What: Measures activity (commits, authors, lines of code, etc.) of multiple scanned repositories
+  * Why: Provides a relative view of repositories within a project to see where activity is concentrated
   * ![Top Repositories](images/top-repos.png)
 * Assignee Organizations
   * What: Counts the issues assigned to individual organizations
