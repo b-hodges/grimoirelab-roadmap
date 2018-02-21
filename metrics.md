@@ -26,18 +26,42 @@ A non-comprehensive set of metrics measured by GrimoireLab
 * Identities
   * What: Track the same user across multiple profiles
   * Why: Prevents over-counting individual developers and allows more accurate identification of important developers
+(no UI available)
+```
+mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
+| id      | name                           | email                                | username | source | uuid    |
+| 0cac4ef | Quan Zhou                      | quan@bitergia.com                    | NULL     | git    | 0cac4ef |
+| 0ef1c4a | Jesus M. Gonzalez-Barahona     | jgbarah@gmail.com                    | NULL     | git    | 0ef1c4a |
+| 11cc034 | quan                           | zhquan7@gmail.com                    | NULL     | git    | 11cc034 |
+| 35c0421 | Alberto Martín                 | alberto.martin@bitergia.com          | NULL     | git    | 35c0421 |
+| 37a8187 | Alberto Martín                 | albertinisg@users.noreply.github.com | NULL     | git    | 37a8187 |
+| 3ca4e85 | Daniel Izquierdo Cortazar      | dicortazar@gmail.com                 | NULL     | git    | 3ca4e85 |
+| 4fcec5a | dpose                          | dpose@sega.bitergia.net              | NULL     | git    | 4fcec5a |
+| 5b358fc | dpose                          | dpose@bitergia.com                   | NULL     | git    | 5b358fc |
+| 692ad15 | Andre Klapper                  | a9016009@gmx.de                      | NULL     | git    | 692ad15 |
+| 6dcf98c | Daniel Izquierdo               | dizquierdo@bitergia.com              | NULL     | git    | 6dcf98c |
+| 75fc28e | Santiago Dueñas                | sduenas@bitergia.com                 | NULL     | git    | 75fc28e |
+| 7ad0031 | Alvaro del Castillo            | acs@thelma.cloud                     | NULL     | git    | 7ad0031 |
+| 8fac15f | alpgarcia                      | alpgarcia@gmail.com                  | NULL     | git    | 8fac15f |
+| 9aed245 | Alvaro del Castillo            | acs@bitergia.com                     | NULL     | git    | 9aed245 |
+...
+```
 * Top Repositories
   * What: Measures activity (commits, authors, lines of code, etc.) of multiple scanned respositories
   * Why: Provides a realtive view of repositories within a project to see where activity is concentrated
+![Top Repositories](images/top-repos.png)
 * Assignee Organizations
   * What: Counts the issues assigned to individual organizations
   * Why: Can indicate which organizations are valued by the community itself
+![Assignee Organizations](images/assignee-orgs.png)
 * Mailing Lists: Emails
   * What: Counts the emails send on mailing lists associated with the project
   * Why: Indicates how responsive the mailing lists are via volume of traffic
+![Mailing Lists: Emails](images/mailing-lists.png)
 * Gerrit: Changeset Status
   * What: Counts the changesets of each status
   * Why: Can indicate the current stage of development that the project is in (i.e. a project ramping up for a new release may have more DRAFT issues than NEW)
+![Gerrit: Changeset Status](images/gerrit-status.png)
 * Backlog (Open PRs and Issues)
   * What: Listing of all open issues and pull requests
   * Why: Shows that a community is active by having a lot of issues and pull requests, can also show inactivity of community managers if too many issues or pull requests aren't being resolved
