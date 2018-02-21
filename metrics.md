@@ -70,10 +70,6 @@ mysql -u user -pXXX -e 'SELECT * FROM identities;' shdb
   * What: Count of individual pull request submitters by date
   * Why: Shows activity level of the community for making updates/fixes
   * ![Pull Request Submitters](images/pull-request-submitters.png)
-* Top Repositories
-  * What: Listing of the most active repositories with metrics for each
-  * Why: Shows which repositories within the project are getting the most attention and can help steer development
-  * ![Top Repositories](https://github.com/b-hodges/grimoirelab-roadmap/blob/master/top_repos.PNG)
 * Pull Request Status
   * What: Graphic showing amount of open and closed pull requests
   * Why: Shows quickly how many open requests are in contrast to closed requests. This information can be used to see if a community is letting open requests pile up
